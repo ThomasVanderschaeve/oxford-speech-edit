@@ -1,97 +1,32 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "oxford-speech",
-        "scope": null,
-        "escapedName": "oxford-speech",
-        "name": "oxford-speech",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "C:\\Users\\vanderschaevet\\Documents\\SAP\\TimeSheet-develop3\\TimeSheet-develop"
-    ]
+  "name": "oxford-speech-edit",
+  "version": "1.0.0",
+  "description": "Oxford.Speech.JS is a sample for Microsoft Cognitive Services Speech to Text API's using Javascript.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasVanderschaeve/oxford-speech-edited.git"
+  },
+  "keywords": [
+    "speech",
+    "microsoft",
+    "recognition",
+    "cognitive"
   ],
-  "_from": "oxford-speech@latest",
-  "_id": "oxford-speech@1.0.1",
-  "_inCache": true,
-  "_location": "/oxford-speech",
-  "_nodeVersion": "4.4.3",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/oxford-speech-1.0.1.tgz_1462020719175_0.41581896017305553"
-  },
-  "_npmUser": {
-    "name": "theluk",
-    "email": "theluk@gmail.com"
-  },
-  "_npmVersion": "3.8.7",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "oxford-speech",
-    "scope": null,
-    "escapedName": "oxford-speech",
-    "name": "oxford-speech",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/oxford-speech/-/oxford-speech-1.0.1.tgz",
-  "_shasum": "81739c97099cee77c492f6f806e26650458354bc",
-  "_shrinkwrap": null,
-  "_spec": "oxford-speech",
-  "_where": "C:\\Users\\vanderschaevet\\Documents\\SAP\\TimeSheet-develop3\\TimeSheet-develop",
-  "author": {
-    "name": "Lukas Klinzing",
-    "email": "theluk@gmail.com"
-  },
+  "author": "Thomas Vanderschaeve",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theluk/oxford-speech/issues"
+    "url": "https://github.com/ThomasVanderschaeve/oxford-speech-edited/issues"
   },
-  "dependencies": {},
-  "description": "Oxford.Speech.JS is a sample for Microsoft Cognitive Services (formerly Project Oxford) Speech To Text APIs using Javascript.",
+  "homepage": "https://github.com/ThomasVanderschaeve/oxford-speech-edited#readme",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-template": "^4.0.0",
     "request": "^2.72.0"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "81739c97099cee77c492f6f806e26650458354bc",
-    "tarball": "https://registry.npmjs.org/oxford-speech/-/oxford-speech-1.0.1.tgz"
-  },
-  "gitHead": "48fc4afc78a9f83c8807ca92bf07cd333f7d7cc6",
-  "homepage": "https://github.com/theluk/oxford-speech#readme",
-  "keywords": [
-    "speech",
-    "microsoft",
-    "oxford-speech",
-    "recognition",
-    "cognitive"
-  ],
-  "license": "MIT",
-  "main": "speech.js",
-  "maintainers": [
-    {
-      "name": "theluk",
-      "email": "theluk@gmail.com"
-    }
-  ],
-  "name": "oxford-speech",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/theluk/oxford-speech.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.1"
+  }
 }
