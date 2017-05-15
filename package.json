@@ -1,6 +1,6 @@
 {
   "name": "oxford-speech-edit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Oxford.Speech.JS is a sample for Microsoft Cognitive Services Speech to Text API's using Javascript.",
   "main": "gulpfile.js",
   "scripts": {
